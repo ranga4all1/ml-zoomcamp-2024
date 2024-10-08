@@ -137,7 +137,7 @@ What's the value of std?
 > If standard deviation of scores is low, then our model is *stable*.
 
 
-**Answer: `0.008`**
+**Answer: `33.49`**
 
 ### Question 6
 
@@ -153,7 +153,7 @@ Options:
 - 618.60
 - 628.60
 
-**Answer: `0.455`**
+**Answer: `608.61`**
 
 
 ## Submit the results
