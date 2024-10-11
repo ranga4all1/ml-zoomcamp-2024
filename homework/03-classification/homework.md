@@ -52,7 +52,7 @@ What is the most frequent observation (mode) for the column `education`?
 - `secondary`
 - `tertiary`
 
-**Answer: **`secondary`**
+**Answer: `secondary`**
 
 
 ### Question 2
@@ -67,7 +67,7 @@ What are the two features that have the biggest correlation?
 - `day` and `pdays`
 - `pdays` and `previous`
 
-**Answer: **`pdays` and `previous`**
+**Answer: `pdays` and `previous`**
 
 
 ### Target encoding
@@ -93,7 +93,7 @@ Which of these variables has the biggest mutual information score?
 - `housing`
 - `poutcome`
 
-**Answer: **`poutcome`**
+**Answer: `poutcome`**
 
 
 ### Question 4
@@ -112,7 +112,7 @@ What accuracy did you get?
 - 0.8
 - 0.9
 
-**Answer: **`0.9`**
+**Answer: `0.9`**
 
 
 ### Question 5
@@ -131,7 +131,7 @@ Which of following feature has the smallest difference?
 
 > **Note**: The difference doesn't have to be positive.
 
-**Answer: **`age`**
+**Answer: `age`**
 
 
 ### Question 6
@@ -151,7 +151,7 @@ Which of these `C` leads to the best accuracy on the validation set?
 
 > **Note**: If there are multiple options, select the smallest `C`.
 
-**Answer: **`0.1`**
+**Answer: `0.1`**
 
 
 ## Submit the results
