@@ -54,3 +54,37 @@ python predict-request-test.py
 ```
 
 ## ----------------------------------------
+
+## Deploy to aws elastic beanstalk
+
+- Prep
+```
+pipenv install awsebcli --dev
+
+pipenv shell
+eb
+eb init --help
+
+eb init -p docker -r us-west-2 churn-serving
+
+ls -a
+cd .elasticbeanstalk
+less config.yml
+```
+
+- Test locally
+```
+eb local run --port 9696
+```
+
+- Deploy
+```
+pipenv shell
+eb create churn-serving-env
+```
+
+- Terminate app env (churn-serving-env) once done
+```
+pipenv shell
+eb terminate
+```
