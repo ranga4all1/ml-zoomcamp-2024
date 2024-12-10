@@ -5,6 +5,7 @@ pip install tensorflow
 ```
 
 ```
-
+docker build -t clothing-model .
+docker run -it --rm -p 8080:8080 clothing-model:latest
 ```
 
