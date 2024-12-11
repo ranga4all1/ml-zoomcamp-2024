@@ -91,7 +91,7 @@ After the pre-processing, what's the value in the first pixel, the R channel?
 * 0.64
 * 0.84
 
-**Answer: `0.44`**
+**Answer: `0.24`**
 
 
 ## Question 4
