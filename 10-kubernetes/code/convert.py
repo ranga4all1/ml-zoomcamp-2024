@@ -7,7 +7,7 @@
 import tensorflow as tf
 from tensorflow import keras
 
-model = keras.models.load_model('./clothing-model.keras')
+model = keras.models.load_model('clothing-model.keras')
 
 tf.saved_model.save(model, 'clothing-model')
 
