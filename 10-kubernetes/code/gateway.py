@@ -31,7 +31,7 @@ def prepare_request(X):
     pb_request.model_spec.name = 'clothing-model'
     pb_request.model_spec.signature_name = 'serving_default'
 
-    pb_request.inputs['inputs'].CopyFrom(np_to_protobuf(X))
+    pb_request.inputs['input_8'].CopyFrom(np_to_protobuf(X))
     return pb_request
 
 
@@ -49,7 +49,7 @@ classes = [
 ]
 
 def prepare_response(pb_response):
-    preds = pb_response.outputs['output_0'].float_val
+    preds = pb_response.outputs['dense_7'].float_val
     return dict(zip(classes, preds))
 
 
