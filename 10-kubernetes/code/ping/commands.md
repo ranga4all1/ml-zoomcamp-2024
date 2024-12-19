@@ -33,3 +33,4 @@ kubectl port-forward service/ping 8080:80
 curl localhost:8080/ping
 ----
 
+kubectl delete deployment --all --namespace=default
